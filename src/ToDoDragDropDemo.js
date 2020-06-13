@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-export default class ToDoDragDropDemo extends Component {
+class ToDoDragDropDemo extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -146,3 +146,5 @@ export default class ToDoDragDropDemo extends Component {
     );
   }
 }
+
+export default ToDoDragDropDemo;
